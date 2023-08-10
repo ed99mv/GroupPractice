@@ -1,3 +1,12 @@
+
+const list = [1, 2, 3, 4];
+
+
+const valor = 0;
+const sum = list.reduce((accum, current) => accum + current, valor);
+
+console.log(sum);
+
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 const initialValue = 0;
@@ -12,4 +21,5 @@ const reduceTotal = (accumulator, currentV) => {
 
 let suma = numbers.reduce(sumaTotal, 0);
 console.log(`Lista [${numbers}] el total es: ${suma}`);
+
 
