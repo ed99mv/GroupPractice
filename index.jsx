@@ -6,7 +6,7 @@ const valor = 0;
 const sum = list.reduce((accum, current) => accum + current, valor);
 
 console.log(sum);
-
+//_____________________Edward_______________//
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 const initialValue = 0;
